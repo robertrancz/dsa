@@ -35,7 +35,7 @@ namespace Dsa.Test.Algorithms
         /// Check to see that calling Factorial algorithm returns the correct value.
         /// </summary>
         [RowTest]
-        [Row(0, 0), Row(1, 1), Row(2, 2), Row(6, 3), Row(24, 4), Row(120, 5), Row(720, 6)]
+        [Row(1, 0), Row(1, 1), Row(2, 2), Row(6, 3), Row(24, 4), Row(120, 5), Row(720, 6)]
         public void FactorialTest(int expected, int actual)
         {
             Assert.AreEqual(expected, actual.Factorial());
@@ -89,7 +89,7 @@ namespace Dsa.Test.Algorithms
         {
             const int actual = 23;
 
-            Assert.AreEqual(10111, actual.ToBinary());
+            Assert.AreEqual(101, actual.ToBinary());
         }
 
         /// <summary>
