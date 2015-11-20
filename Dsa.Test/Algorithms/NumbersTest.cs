@@ -89,7 +89,7 @@ namespace Dsa.Test.Algorithms
         {
             const int actual = 23;
 
-            Assert.AreEqual(101, actual.ToBinary());
+            Assert.AreEqual(10111, actual.ToBinary());
         }
 
         /// <summary>
